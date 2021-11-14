@@ -13,5 +13,5 @@ const MainComponent = () => {
     )
 
 }
-
+// keep in mind i may have two node-sasses running, one from bulma-start -me
 export default MainComponent;
