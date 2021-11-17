@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
-$mauve: #9f6976;
-$goldenpeach:#faae7b;
+$pinkheader: #ffb3c1;
+$goldenpeach:#ea8869;
+$darkbg:#1C0E2F;
 .navbar{
-    background-color: $mauve;
+    background-color: $pinkheader;
     font-family: 'Praise', cursive;
     font-size :30px;
-   
-}
-
-.navbar-item{
-    color: $goldenpeach;
+    width: 100vw;
+    // opacity: 60%;
+    a{
+        color: $goldenpeach;
+    }
 }

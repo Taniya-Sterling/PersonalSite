@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=header.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Praise&display=swap");
+.navbar {
+  background-color: #ffb3c1;
+  font-family: 'Praise', cursive;
+  font-size: 30px;
+  width: 100vw;
+}
+
+.navbar a {
+  color: #ea8869;
+}
+/*# sourceMappingURL=header.css.map */

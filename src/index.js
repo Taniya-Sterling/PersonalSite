@@ -12,7 +12,7 @@ import PortfolioComponent from './Portfolio';
 const App = () => {
 
     return (
-      <div>
+      <div>       
         <Router>
           <Header/>
             <Routes>

@@ -1,4 +1,64 @@
-$maincolor: #bada55;
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=M+PLUS+Code+Latin:wght@200;300;700&family=Praise&display=swap');
+ $glow: #ffc8dd;
+ $darkbg:#1C0E2F;
+ $pinktext: #ffc8dd;
+ $goldenpeach:#faae7b;   
 body{
-    // background-color: $maincolor;
+    // background-color: $darkbg;
+    background-image: url('https://images.unsplash.com/photo-1518123877527-f4255b0c7795?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
 }
+
+.title{
+    font-family: 'Damion', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+   margin: 10vw;   
+    text-align: center;
+   justify-self: center;
+    color: #fff;
+    text-shadow:
+      0 0 7px $pinktext,
+      0 0 10px $pinktext,
+      0 0 21px #fff,
+      0 0 42px $glow,
+      0 0 82px $glow,
+      0 0 92px $glow,
+      0 0 102px $glow,
+      0 0 151px $glow
+    
+}
+h1 {
+    
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem $glow,
+                0 0 0.8rem $glow,
+                0 0 2.8rem $glow,
+                inset 0 0 1.3rem #e994aa;
+  }
+
+  .subtitle{
+    background-color:$darkbg;
+    opacity: 80%;
+    margin-top: 100vh;  
+    margin: 10vh;
+    h2{
+     color: $pinktext;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    text-decoration: underline;  
+    opacity: 100%;
+    } 
+  }
+
+  .quote{
+    color: $pinktext;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-weight: bolder;
+  }

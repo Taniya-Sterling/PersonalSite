@@ -24,17 +24,12 @@ const Header = () => {
         </a>
           </div>
 
-            <div class='navbar-menu' id = 'nav-links'>
-               <div class="navbar-start navbar-item">< Link to= {"/"}> Home </Link></div> 
-               <div class="navbar-start navbar-item"><Link to= {"/Aboutme"}> About me </Link></div> 
-               <div class="navbar-start navbar-item"> <Link to={"/Projects"}> portfolio </Link></div>   
+            <div class='navbar-menu'>
+               <div class=" navbar-item">< Link to= {"/"}> Home </Link></div> 
+               <div class=" navbar-item"><Link to= {"/Aboutme"}> About me </Link></div> 
+               <div class="navbar-item"> <Link to={"/Projects"}> portfolio </Link></div>   
             </div>
-             {/* <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-             <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              </a> */}
-               
+             
     </nav>
   )
 }
