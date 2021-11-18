@@ -12,11 +12,13 @@ body{
     height:100vh;
 }
 
-.title{
+#name{
     font-family: 'Damion', cursive;
     font-size: 50px;
+    height: 25vh;
     font-weight: lighter;
    margin: 10vw;   
+   padding-top: 8.5vh;
     text-align: center;
    justify-self: center;
     color: #fff;
@@ -35,7 +37,10 @@ h1 {
     
     border: 0.2rem solid #fff;
     border-radius: 2rem;
-    padding: 0.4em;
+    
+    text-align: center;
+    padding: 0.4;   
+    margin-bottom: 5vh; 
     box-shadow: 0 0 .2rem #fff,
                 0 0 .2rem #fff,
                 0 0 2rem $glow,
@@ -47,13 +52,12 @@ h1 {
   .subtitle{
     background-color:$darkbg;
     opacity: 80%;
-    margin-top: 100vh;  
-    margin: 10vh;
+    margin: 5vw;
     h2{
      color: $pinktext;
     font-family: 'M PLUS Code Latin', sans-serif;
-    text-decoration: underline;  
-    opacity: 100%;
+    // text-decoration: underline;  
+    
     } 
   }
 

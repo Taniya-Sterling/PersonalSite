@@ -1,3 +1,27 @@
-body{
-    // background-color: pink;
+ $glow: #ffc8dd;
+ $darkbg:#1C0E2F;
+ $pinktext: #ffc8dd;
+ $goldenpeach:#faae7b;  
+.container{
+margin: 20vh;
+}
+#about-me-card{
+    
+    // font-family: 'Pattaya', sans-serif;
+    width: 40vw;
+    // height: 50vh;
+    // background-color:#CFA69D;
+    // padding: 90px;
+    // margin: 15vh;
+    
+    // text-align: center;
+    // color: #a47551;
+    // list-style: none;
+
+}
+
+.boxy-list:before{
+    list-style-type: none;
+    content: '\2665 ';
+    // color: ;
 }

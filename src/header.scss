@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
-$pinkheader: #ffb3c1;
+$pinkheader: #e5989b;
 $goldenpeach:#ea8869;
-$darkbg:#1C0E2F;
+$textcolor:#ac46a1;
 .navbar{
     background-color: $pinkheader;
     font-family: 'Praise', cursive;
@@ -9,6 +9,6 @@ $darkbg:#1C0E2F;
     width: 100vw;
     // opacity: 60%;
     a{
-        color: $goldenpeach;
+        color: $textcolor;
     }
 }
