@@ -9,7 +9,7 @@ const MyComponent = () => {
         <div class="card-content">
     <p class="title">About Me</p>
     <ul class = "about-me-list">          
-            <li class = "boxy-list" id = "boxy-list">I am a South Florida native studying software engineering at OU</li>
+            <li class = "boxy-list">I am a South Florida native studying software engineering at OU</li>
             <li class = "boxy-list">I grew up watching my mom build desktops from the ground up and playing video games with my dad, which are big reasons for my interest in programming</li>
             <li class = "boxy-list">my personality type is INFP</li>
             <li class = "boxy-list">I am a certified phlebotomist</li>
@@ -24,10 +24,3 @@ const MyComponent = () => {
 }
 
 export default MyComponent;
-
-{/* <div class = 'container'>
-        <div  id= "about-me-boxy"> 
-       <div className='title'>Taniya Sterling</div>
-     
-   </div>
-           </div>  */}
