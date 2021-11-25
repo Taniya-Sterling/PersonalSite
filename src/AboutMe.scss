@@ -3,15 +3,35 @@
  $pinktext: #ffc8dd;
  $goldenpeach:#faae7b;  
 .container{
-margin: 20vh;
+// margin: 1vh;
+margin-top: 8vh;
+// margin-right: 10vh;
+align-items: center;
+
 }
 #about-me-card{
-   
-
+   height: fit-content;
+//    width: 75vw;
+// margin: 10vh;
+// padding: 10vh;
+    text-align: center;
+    justify-self: center;
+    // margin: 0 auto;
 }
 
+.subtitle{
+    // height: fit-content;
+    margin-top: 3vh;
+}
 .boxy-list:before{
     list-style-type: none;
     content: '\2665 ';
     // color: ;
+}
+
+.material-icons{
+    background-color: aqua;
+    border-radius: 50%;
+    color:pink;
+    font-size: 5vh;
 }
