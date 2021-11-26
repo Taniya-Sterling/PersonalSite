@@ -12,8 +12,7 @@ const Header = () => {
     <nav class = 'navbar' role="navigation" aria-label="main navigation">
 
          <div class='navbar-brand'>
-            <a class = 'navbar-item'>
-              {/* icon */}
+            <a class = 'navbar-item'>              
             </a>
           
         <a role="button" className="navbar-burger " aria-label="menu" aria-expanded="false"

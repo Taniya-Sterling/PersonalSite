@@ -2,31 +2,25 @@
  $darkbg:#1C0E2F;
  $pinktext: #ffc8dd;
  $goldenpeach:#faae7b;  
-.container{
-// margin: 1vh;
-margin-top: 8vh;
-// margin-right: 10vh;
+.card{
+margin-top: 10vh;
 align-items: center;
 
 }
 #about-me-card{
-   height: fit-content;
-//    width: 75vw;
-// margin: 10vh;
-// padding: 10vh;
+margin: 5vh;
     text-align: center;
     justify-self: center;
-    // margin: 0 auto;
 }
 
 .subtitle{
-    // height: fit-content;
+    
     margin-top: 3vh;
 }
 .boxy-list:before{
     list-style-type: none;
     content: '\2665 ';
-    // color: ;
+    
 }
 
 .material-icons{

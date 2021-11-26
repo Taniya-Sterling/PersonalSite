@@ -1,3 +1,22 @@
-body{
+$glow: #ffc8dd;
+$darkbg:#1C0E2F;
+$pinktext: #ffc8dd;
+$goldenpeach:#020202;  
+$pinkheader: #e5989b;
+$goldenpeach:#ea8869;
+$textcolor:#ac46a1;
+.columns{
+    grid-template-rows: 1fr(3);
+    grid-template-columns: 1fr(3);
+}
+.portfolio{
     
+    background-color: $pinktext ;
+    margin: 3.5vh;
+    border-radius: 10px 20px;
+}
+
+#retrodraw{
+    display:grid;
+   
 }
